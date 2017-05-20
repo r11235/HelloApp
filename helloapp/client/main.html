@@ -1,0 +1,44 @@
+<head>
+  <title>helloapp</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+  {{> signup}}
+  {{> info}}
+</body>
+
+<template name="hello">
+  <div>
+  <button class="buttonstyle">Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+  <button id="greeting">say hello</button>
+  <br><br><br>
+  </div>
+</template>
+
+<template name="signup">
+  <div>
+  <p id="signup">Sign Up</p>
+  <form>
+  <span>Name:</span> <input class="boxcolor" id="namebox" type="text" name="name" value=""><br><br>
+  <span>Email:</span> <input class="boxcolor" id="emailbox" type="text" name="email" value=""><br><br>
+  <input id="submit" type="submit" value="Submit" onclick="alert('Hello ' + document.getElementById('namebox').value + '!' + '  email: ' + document.getElementById('emailbox').value);">
+  </form>
+  <br><br>
+  </div>
+</template>
+
+<template name="info">
+  <div>
+  <h2>Learn Meteor!</h2>
+  <ul>
+    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
+    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
+    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
+    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
+  </ul>
+  </div>
+</template>

@@ -1,0 +1,64 @@
+/* CSS declarations go here */
+
+body {
+	background-color: gray;
+}
+
+h1 {
+	color: orange;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h2 {
+	color: white;
+	font-family: cursive, sans-serif;
+}
+
+
+p {
+	color: #A0D6B4;
+	font-family: cursive;
+	font-style: italic;
+}
+
+span {
+	font-size: 125%;
+	color: #A0D6B4;
+}
+
+li {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: orange;
+}
+
+.buttonstyle {
+	font-style: italic;
+	font-size: 125%;
+	width: 100px;
+	height: 30px;
+	border-radius: 10%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.boxcolor {
+	background-color: LightGray;
+}
+
+#signup {
+	font-size: 150%;
+}
